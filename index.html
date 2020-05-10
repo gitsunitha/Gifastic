@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="NomNomMeals" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="main-container">
+        <!-- <div class="header-container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand">Menu Planner </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div> -->
+        <div class="body-container justify-content-center">
+            <h1>Cafe & more</h1>
+
+            <div class="row display-add-section justify-content-center">
+                <div id="buttons-view">
+                    <!-- add buttons in a for loop -->
+                    <!-- More and Less Buttons -->
+                </div>
+            </div>
+            <div class="row display-moreless-section justify-content-center">
+                <!-- add buttons in a for loop -->
+                <!-- More and Less Buttons -->
+                <button class="category-more btn btn-large btn-warning">More</button>
+                <button class="category-less btn btn-large btn-warning">Less</button>
+            </div>
+            <div class="row display-gif-section justify-content-center">
+                <div class="col-8 display-gifs">
+                    <!-- add gifs through jquery -->
+                </div>
+                <div class="col-4">
+                    <form>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Enter a new category</span>
+                            </div>
+                            <input type="text" class="form-control" id="category-input" />
+                            <!-- Submit Button -->
+                            <input id="select-category" type="submit" value="GO!" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/gipyload.js" async defer></script>
+</body>
+
+</html>
